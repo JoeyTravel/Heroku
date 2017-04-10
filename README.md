@@ -17,6 +17,6 @@
 11. `heroku ps:scale web=1`
 12. `npm install`
 13. `heroku local web`
-14. `
+14. `npm install --save --save-exact cool-ascii-faces`
 
 
