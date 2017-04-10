@@ -4,4 +4,6 @@
  
 ## CLI
 
+`heroku login`
+
 
