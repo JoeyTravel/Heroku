@@ -158,7 +158,7 @@ app.post("/api/contacts", function(req, res) {
   });
 });
 ```
- `"start": "node server.js"` - Instructs Heroku to run the 
+ `"start": "node server.js"` - Instructs Heroku to run the `server.js` file to start the application.
  
  
  ```curl
