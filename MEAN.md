@@ -15,6 +15,7 @@
 
 ## Development Protocol
 
- * `package.json` 
-  * A 
+ * `package.json` - A configuration file that contains the metadata for the application. When there is a `package.json` file in the root directory of the project, Heroku will use the Node.js buildpack to deploy the application.
+ 
+ 
 
