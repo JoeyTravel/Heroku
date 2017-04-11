@@ -55,3 +55,4 @@ When you create a mLab add-on, the database connection URI is stored as a config
 
 ## Update the main app template to display the contact list
 
+## Finalize deployment configuration and deploy to Heroku
