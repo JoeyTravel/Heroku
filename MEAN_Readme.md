@@ -53,3 +53,5 @@ When you create a mLab add-on, the database connection URI is stored as a config
 
 ## Create the contact details template and component
 
+## Update the main app template to display the contact list
+
