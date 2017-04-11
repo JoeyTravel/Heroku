@@ -34,6 +34,8 @@
 28. `heroku addons:create heroku-postgresql:hobby-dev`
 29. `npm install`
 30. `heroku pg:psql`
+31. `ng set --global warnings.packageDeprecation=false`
+
 
 ```node.js
 var cool = require('cool-ascii-faces');
