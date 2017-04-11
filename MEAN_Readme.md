@@ -113,3 +113,15 @@ app.put("/api/contacts/:id", function(req, res) {
 app.delete("/api/contacts/:id", function(req, res) {
 });
  ```
+3. Implement API endpoints
+```json
+{
+  "_id": <ObjectId>,
+  "name": <string>,
+  "email": <string>,
+  "phone": {
+    "mobile": <string>,
+    "work": <string>
+  }
+}
+```
