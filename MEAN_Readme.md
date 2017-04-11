@@ -50,3 +50,6 @@ When you create a mLab add-on, the database connection URI is stored as a config
 ## Create the contact service to make requests to the API server 
 
 ## Create the contact list template and component
+
+## Create the contact details template and component
+
