@@ -30,7 +30,9 @@ Heroku recognizes an app as Node.js by the existence of a `package.json` file in
 
 
 ### CLI Commands
-
+#### Random Commands
+`ng set --global warnings.packageDeprecation=false`
+ 
 1. `ng new` - create a directory
 2. `heroku create` - 
 3. `heroku addons:create mongolab` - create a new Sandbox database
