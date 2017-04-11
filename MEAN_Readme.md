@@ -17,5 +17,7 @@
 
  * `package.json` - A configuration file that contains the metadata for the application. When there is a `package.json` file in the root directory of the project, Heroku will use the Node.js buildpack to deploy the application.
  
+ * `app.json` - A manifest format for describing web apps.  It declares environment variables, add-ons, and other information required to run an app on Heroku.  It is required to create `Deploy to Heroku` button.
+ 
  
 
