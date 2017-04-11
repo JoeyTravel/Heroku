@@ -31,5 +31,10 @@ Heroku recognizes an app as Node.js by the existence of a `package.json` file in
 
 1. `ng new` - create a directory
 2. `heroku create` - 
+3. `heroku addons:create mongolab` - create a new Sandbox database
+
+When you create a mLab add-on, the database connection URI is stored as a config var. Heroku config variables are equivalent to an environment variable, which you can use in development and your local environment. You can access this variable in your Node.js code as `process.env.MONGODB_URI`, which we will use later in our server code.
+
+4. 
  
 
