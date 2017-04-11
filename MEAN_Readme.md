@@ -158,3 +158,9 @@ app.post("/api/contacts", function(req, res) {
   });
 });
 ```
+ `"start": "node server.js"` - Instructs Heroku to run the 
+ 
+ 
+ ```curl
+ curl -H "Content-Type: application/json" -d '{"name":"mLab Support", "email": "support@mlab.com"}' http://your-app-name.herokuapp.com/api/contacts
+```
