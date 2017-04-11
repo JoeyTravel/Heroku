@@ -35,6 +35,12 @@
 29. `npm install`
 30. `heroku pg:psql`
 31. `ng set --global warnings.packageDeprecation=false`
+32. `mkdir src/app/contacts`
+33. `ng generate class contacts/contact`
+34. `ng generate component contacts/contact-details`
+35. `ng generate component contacts/contact-list`
+36. `ng generate service contacts/contact`
+37. 
 
 
 ```node.js
