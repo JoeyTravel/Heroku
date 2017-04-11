@@ -36,7 +36,7 @@ When you create a mLab add-on, the database connection URI is stored as a config
 
 4. `touch server.js` - create a new file 
 5. 
-```Express
+```Javascript
 var express = require("express");
 var bodyParser = require("body-parser");
 var mongodb = require("mongodb");
