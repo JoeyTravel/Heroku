@@ -73,4 +73,5 @@ mongodb.MongoClient.connect(process.env.MONGODB_URI, function (err, database) {
 6. `npm install mongodb express body-parser --save` - install libraries and save the dependencies to `package.json` file so that they will be installed when we deploy to Heroku.
 
 
-
+## Create a RESTful API server with Node.js and Express
+ 1. Define endpoints - i.e `/api/contacts/:id`
