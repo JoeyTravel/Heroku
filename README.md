@@ -70,4 +70,9 @@ app.listen(app.get('port'), function() {
 ```
 
 ### Structure of the `server.js` file:
- * 
+ * Create a database variable outside of the database connection callback to reuset the connection in the app.
+ * Connect to the database before starting the application server.
+ * Save database object from the callback for reuse.
+ * Initialize the app.
+ * Contacts API routine:
+  * Generic error handler used by all endpoints.
